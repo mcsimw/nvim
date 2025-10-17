@@ -52,4 +52,13 @@ in
     nodeJs.enable = false;
     perl.enable = false;
   };
+
+  extraBinPath = with pkgs; [
+    ripgrep
+    fd
+    stylua
+    deadnix
+    statix
+    nixd
+  ];
 }

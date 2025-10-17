@@ -1,18 +1,5 @@
 {
   "pins": {
-    "fzf-lua": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "ibhagwan",
-        "repo": "fzf-lua"
-      },
-      "branch": "main",
-      "submodules": false,
-      "revision": "db45bab4f663bd2e27b257a65611796d682bd0bc",
-      "url": "https://github.com/ibhagwan/fzf-lua/archive/db45bab4f663bd2e27b257a65611796d682bd0bc.tar.gz",
-      "hash": "1c3p5f3g3v4zq845vb1baw5ma9ncakgmjlwcyhh4jajzb47z8ghy"
-    },
     "lz.n": {
       "type": "Git",
       "repository": {

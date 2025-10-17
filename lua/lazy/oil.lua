@@ -9,7 +9,4 @@ return {
 			},
 		})
 	end,
-	wk = {
-		{ "<leader>o", "<CMD>Oil<CR>", desc = "Toggle Oil" },
-	},
 }
