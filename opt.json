@@ -51,6 +51,19 @@
       "revision": "71948729cda5fc1b761d6ae60ff774b5525f1d50",
       "url": "https://github.com/stevearc/oil.nvim/archive/71948729cda5fc1b761d6ae60ff774b5525f1d50.tar.gz",
       "hash": "0s1rizx9r1wzw472ff6vfw9b81x2w2smsz4hs90l9pgwhgjnkf1n"
+    },
+    "zen-mode.nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "folke",
+        "repo": "zen-mode.nvim"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "438a59c33763d79e34ceb394e012c3bfd6aa1084",
+      "url": "https://github.com/folke/zen-mode.nvim/archive/438a59c33763d79e34ceb394e012c3bfd6aa1084.tar.gz",
+      "hash": "07h4a9ncnz2x4z8f46dvc60crylhpglh962axyz8j7kggsda9c2f"
     }
   },
   "version": 5
