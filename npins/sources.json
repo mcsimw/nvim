@@ -1,0 +1,96 @@
+{
+  "pins": {
+    "mnw": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "Gerg-L",
+        "repo": "mnw"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "cfbc7d1cc832e318d0863a5fc91d940a96034001",
+      "url": "https://github.com/Gerg-L/mnw/archive/cfbc7d1cc832e318d0863a5fc91d940a96034001.tar.gz",
+      "hash": "0s369nzhlxnzj82l64nxi711a8kaibzikmlxrbcsigbwh5ijzck3"
+    },
+    "neovim-nightly-overlay": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nix-community",
+        "repo": "neovim-nightly-overlay"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "c9c781b2434050fe75aaa69a0664362fa4c721e9",
+      "url": "https://github.com/nix-community/neovim-nightly-overlay/archive/c9c781b2434050fe75aaa69a0664362fa4c721e9.tar.gz",
+      "hash": "0fd6qzbpj40hzbz9h86a588d3kaisbz2l5kn3is1c30zwhb745d0"
+    },
+    "nixpkgs": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nixos",
+        "repo": "nixpkgs"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "497db84afb40314f86be9e640891a657df9f1570",
+      "url": "https://github.com/nixos/nixpkgs/archive/497db84afb40314f86be9e640891a657df9f1570.tar.gz",
+      "hash": "19dqdfalihbc2xpvjifrfimlfc34dwrml5gqzfbnrns0nhy90xhh"
+    },
+    "nvim-treesitter": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nvim-treesitter",
+        "repo": "nvim-treesitter"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "846d51137b8cbc030ab94edf9dc33968ddcdb195",
+      "url": "https://github.com/nvim-treesitter/nvim-treesitter/archive/846d51137b8cbc030ab94edf9dc33968ddcdb195.tar.gz",
+      "hash": "02z8wb5s2ginfplz2j9f7jfqm1wzwrrwjx47hpwh06zvxra9rqca"
+    },
+    "nvim-treesitter-main": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "iofq",
+        "repo": "nvim-treesitter-main"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "976859670cb4da623a7178fb856005be02024a5a",
+      "url": "https://github.com/iofq/nvim-treesitter-main/archive/976859670cb4da623a7178fb856005be02024a5a.tar.gz",
+      "hash": "0vynvpx9lwvha2xxc2cd3vvsixds2k0b951p21f6bdahil5zvlb7"
+    },
+    "nvim-treesitter-textobjects": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nvim-treesitter",
+        "repo": "nvim-treesitter-textobjects"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "1b2d85d3de6114c4bcea89ffb2cd1ce9e3a19931",
+      "url": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects/archive/1b2d85d3de6114c4bcea89ffb2cd1ce9e3a19931.tar.gz",
+      "hash": "07nixa3qmjygchjws2jbk2n0ag6j7kcpd62ax6k0l95q32jqxagq"
+    },
+    "treefmt-nix": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "numtide",
+        "repo": "treefmt-nix"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "761ae7aff00907b607125b2f57338b74177697ed",
+      "url": "https://github.com/numtide/treefmt-nix/archive/761ae7aff00907b607125b2f57338b74177697ed.tar.gz",
+      "hash": "1y0xsyj12939fg6i0f7bk5ppl06gx30vxfdlq111d699hxv6pbw2"
+    }
+  },
+  "version": 5
+}
