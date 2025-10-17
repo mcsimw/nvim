@@ -13,6 +13,19 @@
       "url": "https://github.com/ibhagwan/fzf-lua/archive/db45bab4f663bd2e27b257a65611796d682bd0bc.tar.gz",
       "hash": "1c3p5f3g3v4zq845vb1baw5ma9ncakgmjlwcyhh4jajzb47z8ghy"
     },
+    "nvim-lspconfig": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "neovim",
+        "repo": "nvim-lspconfig"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "ac98db2f9f06a56498ec890a96928774eae412c3",
+      "url": "https://github.com/neovim/nvim-lspconfig/archive/ac98db2f9f06a56498ec890a96928774eae412c3.tar.gz",
+      "hash": "0ncrknyldkaf2i053bkmzd7x58jflsyv6y5fr1wnbq26ynrxf245"
+    },
     "oil.nvim": {
       "type": "Git",
       "repository": {
