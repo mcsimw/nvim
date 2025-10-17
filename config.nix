@@ -60,5 +60,7 @@ in
     deadnix
     statix
     nixd
+    lua-language-server
+    stylua
   ];
 }

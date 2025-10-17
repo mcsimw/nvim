@@ -13,6 +13,19 @@
       "url": "https://github.com/ibhagwan/fzf-lua/archive/db45bab4f663bd2e27b257a65611796d682bd0bc.tar.gz",
       "hash": "1c3p5f3g3v4zq845vb1baw5ma9ncakgmjlwcyhh4jajzb47z8ghy"
     },
+    "lazydev.nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "folke",
+        "repo": "lazydev.nvim"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "e28ce52fc7ff79fcb76f0e79ee6fb6182fca90b9",
+      "url": "https://github.com/folke/lazydev.nvim/archive/e28ce52fc7ff79fcb76f0e79ee6fb6182fca90b9.tar.gz",
+      "hash": "1jzpwh6r2zw27aygacbjgf2fsfvlxkbqwbcvmgcz4c16v53d9721"
+    },
     "nvim-lspconfig": {
       "type": "Git",
       "repository": {
