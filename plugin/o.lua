@@ -1,4 +1,13 @@
-vim.o.nu = true
-vim.o.rnu = true
-vim.o.cul = true
-vim.o.laststatus = 3
+local o = vim.o
+o.nu = true
+o.rnu = true
+o.cul = true
+o.ls = 3
+o.icm = "split"
+o.scl = "yes"
+o.udf = true
+o.is = true
+o.ut = 50
+o.cc = "80"
+o.gcr = ""
+o.hls = true

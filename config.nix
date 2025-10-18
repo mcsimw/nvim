@@ -12,7 +12,7 @@ in
   initLua = ''
     vim.g.mapleader = " "
     vim.g.maplocalleader = " "
-     LZN = require("lz.n")
+    LZN = require("lz.n")
     LZN.load("lazy")
   '';
 
@@ -27,6 +27,7 @@ in
       pkgs.vimPlugins.nvim-treesitter-textobjects
     ]
     ++ mnw.lib.npinsToPlugins pkgs ./start.json;
+
     opt = mnw.lib.npinsToPlugins pkgs ./opt.json;
 
     dev.mcsimw = {
