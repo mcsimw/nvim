@@ -6,7 +6,6 @@ let
     "x86_64-darwin"
     "aarch64-darwin"
   ];
-
   augmentedSources = sources // {
     nvim-treesitter = sources.nvim-treesitter // {
       rev = sources.nvim-treesitter.revision;
@@ -15,7 +14,6 @@ let
       rev = sources.nvim-treesitter-textobjects.revision;
     };
   };
-
   mkPkgs =
     system:
     import sources.nixpkgs {
@@ -35,10 +33,8 @@ let
         })
       ];
     };
-
   treefmt-nix = import sources.treefmt-nix;
   mnw = import sources.mnw;
-
   mkOutputs =
     system:
     let
@@ -52,9 +48,7 @@ let
     {
       formatter = treefmtEval.config.build.wrapper;
       checks.formatting = treefmtEval.config.build.check ./.;
-      packages = {
-        default = pkg;
-      };
+      packages.default = pkg;
       devShells = {
         default = pkgs.mkShellNoCC {
           packages = [
@@ -65,7 +59,6 @@ let
         };
       };
     };
-
   outputs = builtins.listToAttrs (
     map (system: {
       name = system;

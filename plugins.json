@@ -9,9 +9,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "d45ce947b9e2b30dc564e9ea11a2e30f7a7b686d",
-      "url": "https://github.com/ibhagwan/fzf-lua/archive/d45ce947b9e2b30dc564e9ea11a2e30f7a7b686d.tar.gz",
-      "hash": "19rvqvv15czg1l224gvxflyjmnjam8mnm1i0xcah8ixq91k27cn0"
+      "revision": "db45bab4f663bd2e27b257a65611796d682bd0bc",
+      "url": "https://github.com/ibhagwan/fzf-lua/archive/db45bab4f663bd2e27b257a65611796d682bd0bc.tar.gz",
+      "hash": "1c3p5f3g3v4zq845vb1baw5ma9ncakgmjlwcyhh4jajzb47z8ghy"
     },
     "lazydev.nvim": {
       "type": "Git",

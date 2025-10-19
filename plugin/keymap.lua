@@ -8,9 +8,8 @@ set("n", "<c-h>", "<c-w><c-h>")
 set("v", "J", ":m '>+1<CR>gv=gv")
 set("v", "K", ":m '<-2<CR>gv=gv")
 
-set("x", "<leader>p", "\"_dP")
+set("x", "<leader>p", '"_dP')
 
-
-set("n", "<leader>y", "\"+y")
-set("v", "<leader>y", "\"+y")
-set("n", "<leader>Y", "\"+Y")
+set("n", "<leader>y", '"+y')
+set("v", "<leader>y", '"+y')
+set("n", "<leader>Y", '"+Y')

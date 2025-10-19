@@ -12,19 +12,6 @@
       "revision": "f1a9dd3d5af48ee9e73f3bfe12d2a1cee36618c2",
       "url": "https://github.com/lumen-oss/lz.n/archive/f1a9dd3d5af48ee9e73f3bfe12d2a1cee36618c2.tar.gz",
       "hash": "1nw0rs5z8nparsj9w9hvhq2xga6m658yalv5jcsgn9rzdfckl67k"
-    },
-    "vim-moonfly-colors": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "bluz71",
-        "repo": "vim-moonfly-colors"
-      },
-      "branch": "master",
-      "submodules": false,
-      "revision": "8129169a07cb64fef644f73c3fd27db2e50e818a",
-      "url": "https://github.com/bluz71/vim-moonfly-colors/archive/8129169a07cb64fef644f73c3fd27db2e50e818a.tar.gz",
-      "hash": "0fmhi9xih3imgavxrda9znl6wm3h9y94mf8nm4nfxvmd9cc5va8l"
     }
   },
   "version": 5

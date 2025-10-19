@@ -6,6 +6,10 @@
 let
   sources = import ./npins;
   mnw = import sources.mnw;
+  blink-cmp =
+    (import sources.flake-compat {
+      src = sources."blink.cmp";
+    }).defaultNix.packages.${pkgs.system}.blink-cmp;
 in
 {
 
@@ -13,7 +17,7 @@ in
     vim.g.mapleader = " "
     vim.g.maplocalleader = " "
     LZN = require("lz.n")
-    LZN.load("lazy")
+    LZN.load("lzn")
   '';
 
   aliases = [
@@ -22,13 +26,14 @@ in
   ];
 
   plugins = {
-    start = [
+    start = mnw.lib.npinsToPlugins pkgs ./start.json;
+
+    opt = [
       pkgs.vimPlugins.nvim-treesitter
       pkgs.vimPlugins.nvim-treesitter-textobjects
+      blink-cmp
     ]
-    ++ mnw.lib.npinsToPlugins pkgs ./start.json;
-
-    opt = mnw.lib.npinsToPlugins pkgs ./opt.json;
+    ++ mnw.lib.npinsToPlugins pkgs ./opt.json;
 
     dev.mcsimw = {
       pure =
@@ -56,6 +61,7 @@ in
 
   extraBinPath = with pkgs; [
     ripgrep
+    git
     fd
     stylua
     deadnix
@@ -63,5 +69,8 @@ in
     nixd
     lua-language-server
     stylua
+    gnutar
+    curl
+    fzf
   ];
 }
