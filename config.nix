@@ -8,16 +8,14 @@ let
 
   mnw = import sources.mnw;
 
-  blink-cmp =
-    (import sources.flake-compat {
-      src = sources."blink.cmp";
-    }).defaultNix.packages.${pkgs.system}.blink-cmp;
+  #  blink-cmp =
+  #    (import sources.flake-compat {
+  #      src = sources."blink.cmp";
+  #    }).defaultNix.packages.${pkgs.system}.blink-cmp;
 in
 {
 
   initLua = ''
-    vim.g.mapleader = " "
-    vim.g.maplocalleader = " "
     LZN = require("lz.n")
     LZN.load("lzn")
   '';
@@ -33,7 +31,7 @@ in
     opt = [
       pkgs.vimPlugins.nvim-treesitter
       pkgs.vimPlugins.nvim-treesitter-textobjects
-      blink-cmp
+      #      blink-cmp
     ]
     ++ mnw.lib.npinsToPlugins pkgs ./opt.json;
 
@@ -75,5 +73,6 @@ in
     curl
     fzf
     haskell-language-server
+    tinymist
   ];
 }
