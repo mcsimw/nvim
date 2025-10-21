@@ -3,7 +3,7 @@ return {
     "nvim-lspconfig",
     lazy = false,
     after = function()
-      vim.lsp.enable({ "nixd", "lua_ls" })
+      vim.lsp.enable({ "hls", "nixd", "lua_ls" })
     end,
   },
 }

@@ -5,7 +5,9 @@
 }:
 let
   sources = import ./npins;
+
   mnw = import sources.mnw;
+
   blink-cmp =
     (import sources.flake-compat {
       src = sources."blink.cmp";
@@ -72,5 +74,6 @@ in
     gnutar
     curl
     fzf
+    haskell-language-server
   ];
 }
