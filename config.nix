@@ -8,10 +8,14 @@ let
 
   mnw = import sources.mnw;
 
-  #  blink-cmp =
-  #    (import sources.flake-compat {
-  #      src = sources."blink.cmp";
-  #    }).defaultNix.packages.${pkgs.system}.blink-cmp;
+  importFlakePackage =
+    name: attr:
+    (import sources.flake-compat {
+      src = sources.${name};
+    }).defaultNix.packages.${pkgs.system}.${attr};
+
+  blink-cmp = importFlakePackage "blink.cmp" "blink-cmp";
+  lzn = importFlakePackage "lz.n" "default";
 in
 {
 
@@ -26,14 +30,14 @@ in
   ];
 
   plugins = {
-    start = mnw.lib.npinsToPlugins pkgs ./start.json;
+    start = [ lzn ];
 
     opt = [
       pkgs.vimPlugins.nvim-treesitter
       pkgs.vimPlugins.nvim-treesitter-textobjects
-      #      blink-cmp
+      blink-cmp
     ]
-    ++ mnw.lib.npinsToPlugins pkgs ./opt.json;
+    ++ mnw.lib.npinsToPlugins pkgs ./plugins.json;
 
     dev.mcsimw = {
       pure =
