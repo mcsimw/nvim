@@ -61,9 +61,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "643f5aad118a1bb2db5caa8bfc411da794fb870f",
-      "url": "https://github.com/nix-community/neovim-nightly-overlay/archive/643f5aad118a1bb2db5caa8bfc411da794fb870f.tar.gz",
-      "hash": "1vad5vdxfxnp5c741dlwcd3fnp2v3m4jwiz3980aq0xmwsipf7zd"
+      "revision": "f83070dd6cc29bfa0e5190cf1ed5bcf902ef86a4",
+      "url": "https://github.com/nix-community/neovim-nightly-overlay/archive/f83070dd6cc29bfa0e5190cf1ed5bcf902ef86a4.tar.gz",
+      "hash": "115yp53p7856rw8pc38d71f7ydw37hhhsmjqnlgp9y8rndmk2gh4"
     },
     "nixpkgs": {
       "type": "Git",
@@ -74,9 +74,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "4ea9e414d9ac97770d4a16cf985d43a3117d6238",
-      "url": "https://github.com/nixos/nixpkgs/archive/4ea9e414d9ac97770d4a16cf985d43a3117d6238.tar.gz",
-      "hash": "0aclf4irkwjg0nr5qkr6d09wxfl8v0nhmsa052j3spcw8h9pr85d"
+      "revision": "5e2fdeadca4de8513c0b83f83c0bdc9e6c0f0472",
+      "url": "https://github.com/nixos/nixpkgs/archive/5e2fdeadca4de8513c0b83f83c0bdc9e6c0f0472.tar.gz",
+      "hash": "0l4jazn8vg7jjwy7sij65319rsb0sxnhminaah4x5xnl3ga8vrha"
     },
     "nvim-treesitter": {
       "type": "Git",
@@ -87,9 +87,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "30c466ad571b8b99fd06e3df8b2336e3ae63a53a",
-      "url": "https://github.com/nvim-treesitter/nvim-treesitter/archive/30c466ad571b8b99fd06e3df8b2336e3ae63a53a.tar.gz",
-      "hash": "0fah4f9lk9qp2ws1135sqjjbjaiij6bbjhjzf7spd1an7z4n6hyq"
+      "revision": "4a9f57971ae455f07922800973f2d0eccc818e3a",
+      "url": "https://github.com/nvim-treesitter/nvim-treesitter/archive/4a9f57971ae455f07922800973f2d0eccc818e3a.tar.gz",
+      "hash": "0qm8s4a09zzin3043flnhk9gwkhbixlzdv8a1bnigj8vp6ymq6f8"
     },
     "nvim-treesitter-main": {
       "type": "Git",
@@ -126,9 +126,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "f56b1934f5f8fcab8deb5d38d42fd692632b47c2",
-      "url": "https://github.com/numtide/treefmt-nix/archive/f56b1934f5f8fcab8deb5d38d42fd692632b47c2.tar.gz",
-      "hash": "1klcfmqb4q4vvy9kdm5i9ddl26rhlyhf1mrd5aw1d4529bqnq5b5"
+      "revision": "2eddae033e4e74bf581c2d1dfa101f9033dbd2dc",
+      "url": "https://github.com/numtide/treefmt-nix/archive/2eddae033e4e74bf581c2d1dfa101f9033dbd2dc.tar.gz",
+      "hash": "0xnppaig8nav7r0xviz7i87irv8bzjhhp9v080rkljkrqklvrjij"
     }
   },
   "version": 5
