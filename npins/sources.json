@@ -9,9 +9,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "2cb0a71c886d81d7f89a5feb3a10bd9f2f25c736",
-      "url": "https://github.com/Saghen/blink.cmp/archive/2cb0a71c886d81d7f89a5feb3a10bd9f2f25c736.tar.gz",
-      "hash": "0lkjz4vnqlyvkxlqpqvafsq1dxjcd6kvvm06wgqivcr12ilj8s0z"
+      "revision": "87433840b4d8cce053d6b8cd57f3d75a27c8cd8b",
+      "url": "https://github.com/Saghen/blink.cmp/archive/87433840b4d8cce053d6b8cd57f3d75a27c8cd8b.tar.gz",
+      "hash": "00hssiqpl83xqnchq15gyqg16ld0ilra5b4rbr67i63x6m2d5vkf"
     },
     "flake-compat": {
       "type": "Git",
@@ -74,9 +74,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "116d4c5e16843f6c0c9dd61e490d0055f854c103",
-      "url": "https://github.com/nixos/nixpkgs/archive/116d4c5e16843f6c0c9dd61e490d0055f854c103.tar.gz",
-      "hash": "1qkr2qi7xrkkdcs68zi3iljs13dvbqzjjfzlf759747b5jbmdxq6"
+      "revision": "4ea9e414d9ac97770d4a16cf985d43a3117d6238",
+      "url": "https://github.com/nixos/nixpkgs/archive/4ea9e414d9ac97770d4a16cf985d43a3117d6238.tar.gz",
+      "hash": "0aclf4irkwjg0nr5qkr6d09wxfl8v0nhmsa052j3spcw8h9pr85d"
     },
     "nvim-treesitter": {
       "type": "Git",

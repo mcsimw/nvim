@@ -78,5 +78,9 @@ in
     fzf
     haskell-language-server
     tinymist
+    viu
+    chafa
+    ueberzugpp
+    tree-sitter
   ];
 }
