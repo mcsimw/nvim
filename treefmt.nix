@@ -2,8 +2,7 @@
   projectRootFile = "flake.nix";
   settings.global.excludes = [
     "npins"
-    "opt.json"
-    "start.json"
+    "plugins.json"
   ];
   programs = {
     nixfmt.enable = true;
