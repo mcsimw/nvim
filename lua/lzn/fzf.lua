@@ -1,7 +1,7 @@
 return {
   "fzf-lua",
-  lazy = false,
-  -- cmd = "FzfLua",
+  -- lazy = false,
+  cmd = "FzfLua",
   before = function()
     require("lz.n").trigger_load("mini.icons")
   end,

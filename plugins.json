@@ -52,6 +52,19 @@
       "url": "https://github.com/folke/lazydev.nvim/archive/01bc2aacd51cf9021eb19d048e70ce3dd09f7f93.tar.gz",
       "hash": "1jp5nqpyyf9wzvjd2534i01sfrv6mnbjl1pflzh9ll976655vaxj"
     },
+    "lspkind.nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "onsails",
+        "repo": "lspkind.nvim"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "3ddd1b4edefa425fda5a9f95a4f25578727c0bb3",
+      "url": "https://github.com/onsails/lspkind.nvim/archive/3ddd1b4edefa425fda5a9f95a4f25578727c0bb3.tar.gz",
+      "hash": "0yyf2vac4y424kn1vl7bkf5zazs0hd8v3106gl54ib69vav9hljd"
+    },
     "mini.icons": {
       "type": "Git",
       "repository": {
@@ -103,6 +116,22 @@
       "revision": "ef85b89739bee184e204c89bc06280d62bd84039",
       "url": "https://github.com/bluz71/vim-moonfly-colors/archive/ef85b89739bee184e204c89bc06280d62bd84039.tar.gz",
       "hash": "1jgyn9pg0ikvf92nva8irybnnxgca1bsqvqczgbhicc2b251wvjm"
+    },
+    "zen-mode.nvim": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "folke",
+        "repo": "zen-mode.nvim"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v1.4.0",
+      "revision": "04b52674b8c800f8b7d4609e8bd8d0212e3ffa79",
+      "url": "https://api.github.com/repos/folke/zen-mode.nvim/tarball/v1.4.0",
+      "hash": "0s07ar6brzcqn7qzc8xqarpyanm3sa21gcwb8fpx3lvx3a1bgz73"
     }
   },
   "version": 5
