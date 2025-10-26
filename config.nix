@@ -86,5 +86,11 @@ in
     llvmPackages_21.clang-tools
     ormolu
     ghc
+    nodejs_24
+    prettier
+    prettierd
+    rustfmt
+    black
+    isort
   ];
 }
