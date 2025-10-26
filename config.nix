@@ -92,5 +92,6 @@ in
     rustfmt
     black
     isort
+    mercurial
   ];
 }

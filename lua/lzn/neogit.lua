@@ -1,5 +1,6 @@
 return {
   {
+    cmd = "Neogit",
     "neogit",
     before = function()
       LZN.trigger_load("plenary.nvim")
