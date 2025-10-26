@@ -3,7 +3,7 @@ return {
   -- lazy = false,
   cmd = "FzfLua",
   before = function()
-    require("lz.n").trigger_load("mini.icons")
+    LZN.trigger_load("mini.icons")
   end,
   after = function()
     vim.env.FZF_DEFAULT_OPTS = "--layout=reverse --inline-info"
