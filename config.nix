@@ -71,6 +71,7 @@ in
     deadnix
     statix
     nixd
+    nixfmt
     lua-language-server
     stylua
     gnutar
@@ -82,5 +83,8 @@ in
     chafa
     ueberzugpp
     tree-sitter
+    llvmPackages_21.clang-tools
+    ormolu
+    ghc
   ];
 }

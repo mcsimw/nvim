@@ -1,7 +1,7 @@
 local set = vim.keymap.set
 
-set("n", "<leader>bk", "<Cmd>bnext<CR>", { desc = "Next buffer" })
-set("n", "<leader>bj", "<Cmd>bprevious<CR>", { desc = "Previous buffer" })
+set("n", "<leader>bn", "<Cmd>bnext<CR>", { desc = "Next buffer" })
+set("n", "<leader>bp", "<Cmd>bprevious<CR>", { desc = "Previous buffer" })
 
 set("n", "<leader>sv", "<Cmd>vsplit<CR>", { desc = "Split window vertically" })
 set("n", "<leader>sh", "<Cmd>split<CR>", { desc = "Split window horizontally" })

@@ -1,5 +1,18 @@
 {
   "pins": {
+    "conform.nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "stevearc",
+        "repo": "conform.nvim"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "9fd3d5e0b689ec1bf400c53cbbec72c6fdf24081",
+      "url": "https://github.com/stevearc/conform.nvim/archive/9fd3d5e0b689ec1bf400c53cbbec72c6fdf24081.tar.gz",
+      "hash": "1igspxqkqqv9f1fqh0sf6dlap1p8an8jl167a93v33c8ig2h6if9"
+    },
     "fzf-lua": {
       "type": "Git",
       "repository": {
