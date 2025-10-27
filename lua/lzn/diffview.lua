@@ -1,4 +1,4 @@
 return {
   "diffview.nvim",
-  lazy = true,
+  lazy = false,
 }
