@@ -61,9 +61,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "01bc2aacd51cf9021eb19d048e70ce3dd09f7f93",
-      "url": "https://github.com/folke/lazydev.nvim/archive/01bc2aacd51cf9021eb19d048e70ce3dd09f7f93.tar.gz",
-      "hash": "1jp5nqpyyf9wzvjd2534i01sfrv6mnbjl1pflzh9ll976655vaxj"
+      "revision": "c2dfe354571a8255c5d3e96a9a4c297c89ce2347",
+      "url": "https://github.com/folke/lazydev.nvim/archive/c2dfe354571a8255c5d3e96a9a4c297c89ce2347.tar.gz",
+      "hash": "0320jyxh1za55mjqxpgvfwjn6x3bd2k38kmzk6k3pjy97ih9ja4z"
     },
     "lspkind.nvim": {
       "type": "Git",
@@ -113,9 +113,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "a9b2fb560c4ab22c10728fd5149dbd7b62aa4f69",
-      "url": "https://github.com/neovim/nvim-lspconfig/archive/a9b2fb560c4ab22c10728fd5149dbd7b62aa4f69.tar.gz",
-      "hash": "1fc911w9c0z7ljf9av7ynz2sgbxjqadz3sr7f94p09l8xfd6igzy"
+      "revision": "513fc3e2d1a041f2cf0a6379de2670ec586f4469",
+      "url": "https://github.com/neovim/nvim-lspconfig/archive/513fc3e2d1a041f2cf0a6379de2670ec586f4469.tar.gz",
+      "hash": "1hp6g93zzy7n57bgx09c52k2535ym9qi5p7c726n59rkhjldyf30"
     },
     "oil.nvim": {
       "type": "Git",
@@ -193,10 +193,10 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "v1.4.0",
-      "revision": "04b52674b8c800f8b7d4609e8bd8d0212e3ffa79",
-      "url": "https://api.github.com/repos/folke/zen-mode.nvim/tarball/v1.4.0",
-      "hash": "0s07ar6brzcqn7qzc8xqarpyanm3sa21gcwb8fpx3lvx3a1bgz73"
+      "version": "v1.4.1",
+      "revision": "8564ce6d29ec7554eb9df578efa882d33b3c23a7",
+      "url": "https://api.github.com/repos/folke/zen-mode.nvim/tarball/v1.4.1",
+      "hash": "0kjiakg4w869j8pxjgzn0h9wi0wv40hzm6mc3igli7nv7ngp44mx"
     }
   },
   "version": 5

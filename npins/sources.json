@@ -9,9 +9,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "87433840b4d8cce053d6b8cd57f3d75a27c8cd8b",
-      "url": "https://github.com/Saghen/blink.cmp/archive/87433840b4d8cce053d6b8cd57f3d75a27c8cd8b.tar.gz",
-      "hash": "00hssiqpl83xqnchq15gyqg16ld0ilra5b4rbr67i63x6m2d5vkf"
+      "revision": "312097b9e34e45e430d55968cef014b88e6e3549",
+      "url": "https://github.com/Saghen/blink.cmp/archive/312097b9e34e45e430d55968cef014b88e6e3549.tar.gz",
+      "hash": "1phm0812s3s8acigdr803d0p3p1vrgijw50dc8ghv9ll9r40kg4x"
     },
     "flake-compat": {
       "type": "Git",
@@ -22,9 +22,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "9100a0f413b0c601e0533d1d94ffd501ce2e7885",
-      "url": "https://github.com/edolstra/flake-compat/archive/9100a0f413b0c601e0533d1d94ffd501ce2e7885.tar.gz",
-      "hash": "09m84vsz1py50giyfpx0fpc7a4i0r1xsb54dh0dpdg308lp4p188"
+      "revision": "f387cd2afec9419c8ee37694406ca490c3f34ee5",
+      "url": "https://github.com/edolstra/flake-compat/archive/f387cd2afec9419c8ee37694406ca490c3f34ee5.tar.gz",
+      "hash": "0bi4cpqmwpqkv2ikml4ryh14j5l9bl1f16wfixa97h6yvk7ik9aw"
     },
     "lz.n": {
       "type": "Git",
@@ -61,9 +61,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "21595d9f79b5da0eef177dcfdd84ca981ac253a9",
-      "url": "https://github.com/nix-community/neovim-nightly-overlay/archive/21595d9f79b5da0eef177dcfdd84ca981ac253a9.tar.gz",
-      "hash": "0i4xwznj4mnxqr3s54mclmzflx4kbkp6ic6z38xl25nxwmw8v12z"
+      "revision": "48eff0abd9c8282ac0f0a4c88d96aa2b3489aa7f",
+      "url": "https://github.com/nix-community/neovim-nightly-overlay/archive/48eff0abd9c8282ac0f0a4c88d96aa2b3489aa7f.tar.gz",
+      "hash": "1f6z65vl754nz8dqqmlp70i8icqfdbx9rm4lav29xb2macs2csiy"
     },
     "nixpkgs": {
       "type": "Git",
@@ -74,9 +74,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "06d6609f96f70552270708d6810772a87d430c6e",
-      "url": "https://github.com/nixos/nixpkgs/archive/06d6609f96f70552270708d6810772a87d430c6e.tar.gz",
-      "hash": "1w7x1ydhmipw53xn0hq1jx26jqhlzzzvf3bcnvswwxrv4ckqrhzm"
+      "revision": "708d21374164b9990c0fdf571383ac754201f7ef",
+      "url": "https://github.com/nixos/nixpkgs/archive/708d21374164b9990c0fdf571383ac754201f7ef.tar.gz",
+      "hash": "11z5ah5kr1scw8hrzq1hmj1xmdf64fn2w3s7p3g4rapizpsljdpi"
     },
     "nvim-treesitter": {
       "type": "Git",
@@ -87,9 +87,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "98fe644cb3b5ba390d1bc3f89299f93c70020803",
-      "url": "https://github.com/nvim-treesitter/nvim-treesitter/archive/98fe644cb3b5ba390d1bc3f89299f93c70020803.tar.gz",
-      "hash": "1zafxibwdz85w5shr28rzkgkp6rmcpibxin7mlxi4cy46f8s48gx"
+      "revision": "645f42e85d8665c91a9911c3896afb57d6b8a923",
+      "url": "https://github.com/nvim-treesitter/nvim-treesitter/archive/645f42e85d8665c91a9911c3896afb57d6b8a923.tar.gz",
+      "hash": "1f4xh1bkv8d2hrgl85kc1nark4jygaj7jvka3plwfmc36i04rv33"
     },
     "nvim-treesitter-main": {
       "type": "Git",
@@ -100,9 +100,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "420c14c0523d65c6c7ce943e8f2fb896eff950e3",
-      "url": "https://github.com/iofq/nvim-treesitter-main/archive/420c14c0523d65c6c7ce943e8f2fb896eff950e3.tar.gz",
-      "hash": "0gy2dik5nwrsc0wjjn5xzg168kapbx94mhcv8v1f7zragl6rr52q"
+      "revision": "834d66648bb7a96a2ad11d53a33f2d9b13766447",
+      "url": "https://github.com/iofq/nvim-treesitter-main/archive/834d66648bb7a96a2ad11d53a33f2d9b13766447.tar.gz",
+      "hash": "1l0h0gy7zamjxfmybld99fi8bdhxnnvf0bvi2199735lkf418d65"
     },
     "nvim-treesitter-textobjects": {
       "type": "Git",
