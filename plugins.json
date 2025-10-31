@@ -35,9 +35,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "6bb2a266facf0d16e30371b6b433037d1828a674",
-      "url": "https://github.com/ibhagwan/fzf-lua/archive/6bb2a266facf0d16e30371b6b433037d1828a674.tar.gz",
-      "hash": "1jacqskr39k2xb5nppk8lyrbd7rq34a5nwkzj9p0wpramj2ymy33"
+      "revision": "a8458b79a957a6e3e217d84106a0fd4b9470ff4c",
+      "url": "https://github.com/ibhagwan/fzf-lua/archive/a8458b79a957a6e3e217d84106a0fd4b9470ff4c.tar.gz",
+      "hash": "0wswrbfjjyid1zgqmjcxkl7mljsmlayzkfnkpc3zy82ry8li0nis"
     },
     "gitsigns.nvim": {
       "type": "Git",
@@ -61,9 +61,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "c2dfe354571a8255c5d3e96a9a4c297c89ce2347",
-      "url": "https://github.com/folke/lazydev.nvim/archive/c2dfe354571a8255c5d3e96a9a4c297c89ce2347.tar.gz",
-      "hash": "0320jyxh1za55mjqxpgvfwjn6x3bd2k38kmzk6k3pjy97ih9ja4z"
+      "revision": "faf46237f0df43a29e12abd143ff1a0bbac27b7e",
+      "url": "https://github.com/folke/lazydev.nvim/archive/faf46237f0df43a29e12abd143ff1a0bbac27b7e.tar.gz",
+      "hash": "0xjsxpc4dilprms34yzkh845rd4fnlsirp5434xzi6yjrp1h4lax"
     },
     "lspkind.nvim": {
       "type": "Git",
@@ -113,9 +113,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "513fc3e2d1a041f2cf0a6379de2670ec586f4469",
-      "url": "https://github.com/neovim/nvim-lspconfig/archive/513fc3e2d1a041f2cf0a6379de2670ec586f4469.tar.gz",
-      "hash": "1hp6g93zzy7n57bgx09c52k2535ym9qi5p7c726n59rkhjldyf30"
+      "revision": "c8c9420b7676caf14e1e1d96caed204a81ba860f",
+      "url": "https://github.com/neovim/nvim-lspconfig/archive/c8c9420b7676caf14e1e1d96caed204a81ba860f.tar.gz",
+      "hash": "19jq9xcipc6cl5n9nlmlkbhlw99kwlgjlcda02w5grkcsg46dxqn"
     },
     "oil.nvim": {
       "type": "Git",
@@ -152,9 +152,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "285d04054edd1b5cb0ff3d957e142c212830b6ae",
-      "url": "https://github.com/chomosuke/typst-preview.nvim/archive/285d04054edd1b5cb0ff3d957e142c212830b6ae.tar.gz",
-      "hash": "12xn98l9nn7ri32l5bxwi7jzahxm9zmfnkxkfrhx67li78nw4w1a"
+      "revision": "64469f832c4d214683c12e0fceba98055cb1ce3b",
+      "url": "https://github.com/chomosuke/typst-preview.nvim/archive/64469f832c4d214683c12e0fceba98055cb1ce3b.tar.gz",
+      "hash": "13340nd2rvvh3s9nyrg0kp72pxy6dpsh6nbh3zpqd7simlz1ys44"
     },
     "undotree": {
       "type": "Git",

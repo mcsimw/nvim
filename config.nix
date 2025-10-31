@@ -12,7 +12,7 @@ let
     name: attr:
     (import sources.flake-compat {
       src = sources.${name};
-    }).defaultNix.packages.${pkgs.system}.${attr};
+    }).defaultNix.packages.${pkgs.stdenv.hostPlatform.system}.${attr};
 
   blink-cmp = importFlakePackage "blink.cmp" "blink-cmp";
   lzn = importFlakePackage "lz.n" "default";
