@@ -12,4 +12,4 @@ o.so = 10
 o.siso = 8
 o.sm = true
 o.mat = 2
-o.ch = 0
+o.ch = 2
